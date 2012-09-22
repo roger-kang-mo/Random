@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 /**
 * There's a triangle of numbers like so:
-*			8
+*	   	    8
 *  		   3 9	
 *		  4 2 1
 *		 2 6 7 2	
