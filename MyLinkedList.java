@@ -2,7 +2,8 @@ import java.util.*;
 
 /** 
 * There were some questions on linked lists. 
-* Finding the middle, 
+* Finding the middle, finding the middle, finding the middle.
+* Seeing if there's a loop in the array
 **/
 
 class MyLinkedList {
