@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class Animation {
 
    public static void main(String[] args) {
-      String[] states = new Animation().animate(1,  ".R..L..R.L..");
+      String[] states = new Animation().animate(0.5d,  ".R..L..R.L..");
 
       for(String move : states)
          System.out.println(move);
