@@ -1,3 +1,7 @@
+/**
+ *  This program determines whether or not a sentence is a pangram. If it is not,
+ *  the missing letters will print out in alphabetical order.
+ * */
 public class Pangram {
 
    public static void main(String[] args) {
