@@ -1,5 +1,11 @@
 import java.util.ArrayList;
 
+
+/**
+ * This program simulates a tube with particles passing through it. Some go left, some go right.
+ * A speed a specified as well as the starting positions where periods are empty spots. 
+ * Each iteration will print out until the particles have completely exited the tube.
+ * */
 public class Animation {
 
    public static void main(String[] args) {
