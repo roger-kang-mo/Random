@@ -1,6 +1,6 @@
 import java.util.*;
 
-// In an array 1-100 many numbers are duplicates, how do you find it?
+// In an array 1-100 many numbers are duplicates, how do you find them?
 
 class FindDupes{
 	
