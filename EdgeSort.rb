@@ -4,9 +4,9 @@ def sort_edges(input)
 
 	input.each do |k, v|
 		if v[0] < v[1]
-			final_order[v[0]] = k.to_s
+			final_order[v[0]-1] = k.to_s
 		else
-			final_order[v[1]] = k.to_s
+			final_order[v[1]-1] = k.to_s
 		end
 	end
 
