@@ -13,11 +13,6 @@ def sort_edges(input)
 	final_order
 end
 
-
-
-
-
-
 sample_in_1 = {
 	A: [3, 4],
 	B: [4, 5],

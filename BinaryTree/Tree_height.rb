@@ -48,7 +48,7 @@ items = [50, 20, 80, 10, 30, 70, 90, 5, 14,
          28, 41, 66, 75, 88, 96]
 
 strings = ['apple', 'banana', 'coffee', 'durian', 'frankenberry', 'grapefruit', 
-	'huckleberry', 'ingleberry', 'jackfruit', 'kiwi']
+	'huckleberry', 'inkvine', 'jackfruit', 'kiwi', 'senzu bean']
 
 
 nums_tree = Node.new(60)

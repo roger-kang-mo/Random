@@ -1,5 +1,5 @@
 require 'rspec'
-require './binarytree'
+require './BinaryTree/binarytree'
  
 include BinaryTree
  
