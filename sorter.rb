@@ -21,6 +21,8 @@ class Sorter
 			@values = mergesort(@values) 
 		when :quick
 			@values = quicksort(@values)
+		when :bubble
+			@values = bubblesort(@values)
 		else
 			@values = quicksort(@values)
 		end
@@ -49,6 +51,27 @@ class Sorter
 		end
 
 		return (quicksort(lesser) << pivot << quicksort(greater)).flatten
+	end
+
+	def bubblesort(nums)
+		is_sorted = false
+		sorted_nums = nums.dup
+
+		while !is_sorted 
+			is_sorted = true
+			sorted_nums.each_with_index do |num, index|
+				unless index + 1 == sorted_nums.length
+					if sorted_nums[index] > sorted_nums[index+1]
+						swapHolder = sorted_nums[index]
+						sorted_nums[index] = sorted_nums[index+1]
+						sorted_nums[index+1] = swapHolder
+						is_sorted = false
+					end
+				end
+			end			
+		end
+
+		return sorted_nums
 	end
 
 	def mergesort(nums)

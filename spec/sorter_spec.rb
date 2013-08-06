@@ -24,5 +24,10 @@ describe Sorter do
 			subject.sort_by({method: :merge})
 			subject.should be_sorted
 		end
+
+		it 'should successfully sort by bubblesort' do
+			subject.sort_by({method: :bubble})
+			subject.should be_sorted
+		end
 	end
 end
