@@ -18,7 +18,7 @@ describe Sorter do
 		it 'should successfully sort by quicksort' do
 			subject.sort_by({method: :quick})
 			subject.should be_sorted
-		end
+		end 
 
 		it 'should successfully sort by mergesort' do
 			subject.sort_by({method: :merge})
